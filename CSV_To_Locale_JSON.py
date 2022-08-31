@@ -8,11 +8,11 @@ file_path = input("Enter file path: ")
 with open(file_path, 'r') as csv_file:
 	# read file
 	csv_reader = csv.reader(csv_file, delimiter=",", quotechar='"')
-	# create empty list
+	
 	data = []
-	# loop through file
+	
 	for row in csv_reader:
-		# add each row to list
+		
 		data.append(row)
 
 # pop first row from list

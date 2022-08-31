@@ -36,7 +36,7 @@ for row in data:
 # write result in files
 for i in range(len(locales)):
 	with open(languages[i] + '.json', 'w') as json_file:
-		json_object = json.dumps(locales[i], indent = 4) 
+		json_object = json.dumps(locales[i], indent = 4, ensure_ascii=False) 
 		json_file.write(json_object)
 		json_file.close()
 		print("File " + languages[i] + '.json' + " created.")

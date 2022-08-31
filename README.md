@@ -37,7 +37,7 @@ de.json
 ```json
 {
     "Home": "Heim",
-    "About": "\u00dcber",
+    "About": "Über",
     "Contact": "Kontakt",
     "Privacy": "Datenschutz",
     "Terms": "Nutzungsbedingungen",
